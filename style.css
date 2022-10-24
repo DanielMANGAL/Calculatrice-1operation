@@ -1,0 +1,71 @@
+body,html{
+display:flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+}
+h1{
+    font-size: 60px;
+}
+#game{
+border: 10px solid rgb(221, 157, 61);
+height:375px;
+width: 250px;
+border-radius: 3px;
+}
+#resultat{
+    height:40px;
+    font-size: 35px;
+    font-weight: bold;
+    display: flex;
+    justify-content: flex-end;
+    border: 10px solid rgb(141, 82, 5);
+    box-shadow: inset 0px 0px 10px rgba(0,0,0,0.9);
+}
+#number{
+    display: flex;
+    flex-wrap:wrap;
+ 
+
+}
+
+.touche{
+    width: 54px;
+    height:54px;
+    border: 2px solid rgb(233, 184, 110);
+    border-radius: 10px;
+    margin: 2px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    font-size: 25px;
+    transition-duration: 0.3s;
+    cursor: pointer;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.touche:hover{
+    background-color: #e0b97d;
+ 
+  }
+.touche:active{
+    transform: translateY(7px)
+}
+.touche{
+    background-color: #f1dab6;
+}
+.operator{
+    background-color: #e7794d;
+}
+.equal{
+    display: flex;
+    flex:1;
+    font-size: 45px;
+    background-color: rgb(174, 241, 120);
+}
+#delete{
+    background-color: rgb(238, 59, 59);
+}
+#efface{
+    background-color: rgb(226, 122, 140);   
+}
